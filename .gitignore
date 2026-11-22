@@ -1,0 +1,18 @@
+# Secrets / credentials
+.env
+.env.*
+*.env
+*.key
+*.pem
+*.p12
+*.pfx
+
+# WireGuard secrets
+*_private.key
+phone.conf
+wg0.conf
+
+# Backups that may contain secrets
+*.bak
+*.backup
+*.old
